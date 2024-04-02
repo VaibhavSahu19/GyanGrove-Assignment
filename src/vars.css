@@ -1,0 +1,13 @@
+:root{
+
+    /* colors */
+    --color-head: #1E2022;
+    --color-sub: #989090;
+    --color-bg: #ffffff;
+    --color-logo: #CF2D2D;
+    --color-border: #B0BABF;
+
+
+    /* fonts */
+    --font-inter: "Inter variable", sans-serif
+}

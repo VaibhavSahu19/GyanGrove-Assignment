@@ -1,0 +1,53 @@
+@import "../../../vars.css";
+
+.cardContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.imageContainer img{
+    border-radius: 10px;
+    width: 100%;
+}
+.description{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0px 25px;
+    gap: 10px;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+}
+
+.upperDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 400;
+    align-items: center;
+}
+
+.upperDiv h5{
+    font-size: 12px;
+}
+
+.upperDiv div{
+    font-size: 10px;
+}
+
+.lowerDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3px;
+}
+.locationDiv, .distanceDiv{
+    display: flex;
+    justify-content: space-around;
+    font-size: 9px;
+    gap: 5px;
+}
